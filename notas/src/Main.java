@@ -6,7 +6,7 @@ public class Main {
 
         if (media >= 7) {
             System.out.println("Aprovado");
-        } else if (media < 6) {
+        } else{
             System.out.println("Reprovado");
         }
     }
