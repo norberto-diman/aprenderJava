@@ -29,12 +29,13 @@ public class ComparaString {
 
 
         String compare1 = "Norberto";
-        String compare2 = "Norberto Diman";
+        String compare2 = "Norberto";
 
-        if (compare1.compareTo(compare2)) {
-            System.out.println("Verdadeiro");
-        } else {
-            System.out.println("Falso");
+        if (compare1.compareTo(compare2) == 0) {
+            System.out.println(compare1 + " e " + compare2 + " são iguais!");
+        }
+        if (compare1.compareTo(compare2) > 0){
+            System.out.println("");
         }
 
         String compareIgCase1 = "NorberTo Diman";
